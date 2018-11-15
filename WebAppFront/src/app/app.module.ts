@@ -6,6 +6,11 @@ import { AppRoutingModule } from './app.route';
 import { LandingModule } from './pages/landing/landing.module';
 import { RecipesModule } from './pages/recipes/recipes.module';
 import { LogoModule } from './components/logo/logo.module';
+import { ProductModule } from './pages/product/product.module';
+import { SolutionModule } from './pages/solution/solution.module';
+import { AccountModule } from './pages/account/account.module';
+import { AboutModule } from './pages/about/about.module';
+import { ContactModule } from './pages/contact/contact.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +22,11 @@ import { LogoModule } from './components/logo/logo.module';
     AppRoutingModule,
     LandingModule,
     RecipesModule,
+    ProductModule,
+    SolutionModule,
+    AccountModule,
+    AboutModule,
+    ContactModule,
     LogoModule
   ],
   providers: [],
