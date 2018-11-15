@@ -10,8 +10,7 @@ import { CommonModule } from '@angular/common';
   ],
   imports: [
     CommonModule,
-    RecipesRoutingModule,
-
+    RecipesRoutingModule
   ],
   providers: []
 })

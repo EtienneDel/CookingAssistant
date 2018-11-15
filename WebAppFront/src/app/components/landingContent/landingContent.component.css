@@ -1,0 +1,59 @@
+@font-face {
+    font-family: SourceSansProBlack;
+    src: url('../../../assets/fonts/SourceSansPro-Black.ttf');
+}
+@font-face {
+    font-family: CircularSTDBook;
+    src: url('../../../assets/fonts/CircularStd-Book.otf');
+}
+
+.global {
+    position: absolute;
+    left: 7%;
+    top : 35%;
+}
+
+.text {
+    margin-top: 1%;
+    text-align: left;
+}
+
+.desc {
+    font-family: CircularSTDBook;
+    font-size: 30px;
+    color: #242424;
+}
+
+.title {
+    font-family: SourceSansProBlack;
+    font-size: 80px;
+    font: bold;
+    color: #ED1733;
+    margin: 0;
+    line-height: 70px;
+}
+
+.line {
+    height: 3px;
+    width: 250px;
+    background-color: #959595;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.button {
+    background-color: #ED1733;
+    padding: 25px 65px 25px 65px;
+    margin-top: 10%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 30px;
+    font-family: CircularSTDBook;
+}
+
+p {
+    margin: 0;
+}

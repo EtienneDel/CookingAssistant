@@ -1,0 +1,46 @@
+@font-face {
+    font-family: SourceSansProBlack;
+    src: url('../../../assets/fonts/SourceSansPro-Black.ttf');
+}
+
+.shape {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    height: 90%;
+    margin:0;
+    padding:0;
+    z-index: -1;
+}
+
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+
+button {
+    float: right;
+    background-color: transparent;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-family: SourceSansProBlack;
+    outline: none;
+}
+
+.alexa {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 20%;
+}
