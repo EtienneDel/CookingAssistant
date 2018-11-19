@@ -10,7 +10,8 @@
 .global {
     position: absolute;
     left: 7%;
-    top : 35%;
+    top : 30%;
+    text-align: left;
 }
 
 .text {
@@ -46,7 +47,6 @@
     padding: 25px 65px 25px 65px;
     margin-top: 10%;
     border: none;
-    text-align: center;
     text-decoration: none;
     border-radius: 12px;
     color: white;
