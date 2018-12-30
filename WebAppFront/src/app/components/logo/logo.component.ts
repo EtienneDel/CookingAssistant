@@ -9,6 +9,11 @@ import { Router } from '@angular/router';
 export class LogoComponent {
 
   constructor(public router: Router) { 
-
+    
   }
+
+  goTo(dest){
+    this.router.navigate([dest])
+  }
+
 }

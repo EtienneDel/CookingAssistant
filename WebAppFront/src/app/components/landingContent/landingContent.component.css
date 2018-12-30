@@ -1,12 +1,3 @@
-@font-face {
-    font-family: SourceSansProBlack;
-    src: url('../../../assets/fonts/SourceSansPro-Black.ttf');
-}
-@font-face {
-    font-family: CircularSTDBook;
-    src: url('../../../assets/fonts/CircularStd-Book.otf');
-}
-
 .global {
     position: absolute;
     left: 7%;
